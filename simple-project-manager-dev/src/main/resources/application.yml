@@ -1,0 +1,31 @@
+spring:
+  application:
+          name: simple-project-manager
+  datasource:
+    #url: jdbc:postgresql://postgres:5432/ogcsManager
+    username: postgres
+    password: password
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  sql:
+    init:
+      mode: always
+  profiles:
+    active: local
+  docker:
+    compose:
+      enabled: false
+
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui/index.html
+    enabled: true
+
