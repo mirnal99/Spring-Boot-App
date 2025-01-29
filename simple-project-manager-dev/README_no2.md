@@ -10,7 +10,7 @@ In the following text you will read project requirements, coding and collaborati
 
 ## Diagram
 
-![Component Diagram](/docs/component-diagram.drawio.png)
+![Component Diagram](/simple-project-manager-dev/docs/component-diagram.drawio.png)
 
 ## User stories
 
